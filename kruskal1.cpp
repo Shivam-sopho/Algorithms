@@ -4,7 +4,7 @@
 #define le(n) scanf("%d", &n)
 #define out(n) printf("%d", n)
 #define pb push_back()
-/*Program to perform minimum spanning tree via "Kruskal Algorithm Part -I"(Without using stl)*/
+/* Kruskal using the concept of disjoint sets */
 using namespace std;
 class disunion{
     public:
