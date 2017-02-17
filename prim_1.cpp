@@ -44,7 +44,6 @@ void primalgo(ll graph[v][v]){
 		for(ll j = 0 ; j < v ; j++){
 			if(graph[u][j] && mstset[j]==false && graph[u][j]<key[j]){
 			    key[j]=graph[u][j] ;
-			  //  cout << key[v];
 				parent[j]=u;
 			}
    	}
